@@ -1,12 +1,13 @@
 ### Criar pasta build e entrar nela
-mkdir build
-cd build
+`mkdir build && cd build`
 
 ### Gerar o Makefile apartir do CMakeList.txt
-cmake ..
+`cmake ..`
 
 ### Compilar código fonte do projeto
-make
+`make`
 
 ### Roda a aplicação
-./NomeAplicação
+`./NomeAplicação`
+
+Ex: `./SDL3_template_project`
